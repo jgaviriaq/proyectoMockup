@@ -94,18 +94,22 @@ padding: 1px;
     margin-left: 50px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 917px){
 
     #barra_superior{
         display: none;
     }
-   
+
+    #mundo{
+    display: none;
+    }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 917px){
     #barra_nav{
     display: none;
     }
+      
 }
 
 .imagen1{
@@ -163,3 +167,26 @@ padding: 1px;
   .clasificacion :nth-child(even){
       margin-bottom: 0px;
   }
+
+
+.imaPrincipal2{
+    width: 100%;
+    height: 300px;
+}
+
+.vision{
+    text-align: center;
+}
+
+.parrafo3{
+
+    text-align: justify;
+}
+
+.widget2{
+    align-items: center;
+}
+
+#inputEmail4:invalid{
+    background: red;
+}
